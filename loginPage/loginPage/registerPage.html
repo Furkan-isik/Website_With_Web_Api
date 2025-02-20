@@ -1,0 +1,35 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kayıt Ol</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="data:," />
+    <script src="Scripts/jquery-3.7.1.min.js"></script>
+</head>
+<body>
+    <div class="send">
+        <h1>KAYIT OL</h1>
+        <div class="kutu">
+            <form id="registerForm" method="post">
+                <div class="stateMessage"></div>
+                <div class="text">
+                    <input type="text" name="Name" placeholder="Adınız" required />
+                    <input type="text" name="Username" placeholder="Kullanıcı Adı" required />
+                    <input type="email" name="Email" placeholder="E-posta" required />
+                    <input type="password" name="Password" placeholder="Şifre" required />
+                    <input type="password" name="ConfirmPassword" placeholder="Şifre Tekrarı" required/>
+                </div>
+                <div class="textalt">
+                    <input type="button" id="registerButton" value="Kayıt Ol" />
+                    <p id="responseMessage"></p>
+                    <p>Zaten hesabınız var mı? <a href="loginPage.html">Giriş Yap</a></p>
+                </div>
+            </form>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
