@@ -1,13 +1,22 @@
+
+## 🖥️ Project UI / Proje Arayüzü  
+
+![Project UI](Login.png)
+
+
 # Web Site With Web Api
 
-## 📌 Project Setup Instructions / Proje Kurulum Talimatları
+## 📌 Project Setup Instructions
 
-### **1️⃣ Running the Backend / Backend'i Çalıştırma**
+### **1️⃣ Running the Backend **
 - The backend project must be hosted on IIS (Internet Information Services).
 - Create a **new site** in IIS and select the backend directory.
 - The **Application Pool** must be compatible with .NET Core.
 - The backend should be accessible via **http://localhost:8092/** or another specified port.
 
+## 📌 Proje Kurulum Talimatları
+
+### **1️⃣ Backend'i Çalıştırma **
 - Backend projesi IIS (Internet Information Services) üzerinde çalıştırılmalıdır.
 - IIS üzerinde yeni bir **site** oluşturun ve backend'inizin dizinini seçin.
 - **Application Pool**, .NET Core ile uyumlu olmalıdır.
